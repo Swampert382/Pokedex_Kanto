@@ -1,0 +1,104 @@
+body {
+    color: rgb(63, 240, 19);
+    background: rgba(0, 0, 0, 0.692);
+    MARGIN:0px
+} 
+
+header {
+    border-bottom: solid 2px rgb(10, 104, 226);
+    padding: 3px;
+    font-size: 12px;
+    color: rgb(42, 122, 228);
+    font-family: "Dancing Script", sans-serif;
+}
+
+/* código omitido */
+
+section {
+    background: rgb(72,88,97);
+    padding-bottom: 130px;
+    padding-top: 260px;
+    display: flex;
+    justify-content: center;
+    font-family: "Dancing Script", sans-serif;
+    font-size: 32px;
+}
+img {
+    height: 160px;
+  }
+.chamada-texto {
+    margin-right: 5%;
+}
+
+.Ciência {
+    background: rgb(4, 0, 255);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+  }
+  
+/* código omitido */
+
+.Ciência {
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+  
+
+  .Mitologia {
+    background: rgb(197, 16, 16);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+/* código omitido */
+
+.Mitologia {
+  padding-left: 10px;
+  padding-right: 10px;
+  }
+
+
+    .Historia {
+        background: rgb(4, 122, 14);
+        padding-bottom: 80px;
+        padding-top: 80px;
+        display: flex;
+        justify-content: center;
+      }
+      
+      /* código omitido */
+      
+      .Historia {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+    .Ciência img{
+    opacity: 0.5;
+    height: 200px;
+}
+    .Historia img{
+    opacity: 0.5;
+    height: 200px;
+}
+    .Mitologia img{
+    opacity: 0.5;
+    height: 200px;
+} 
+.Ciência img:hover {
+  opacity: 1.0;
+  border: 3px solid rgb(255, 230, 0);
+}
+  .Historia img:hover {
+    opacity: 1.0;
+    border: 3px solid rgb(255, 230, 0);
+     }
+        .Mitologia img:hover {
+      opacity: 1.0;
+      border: 3px solid rgb(255, 230, 0);
+        }
